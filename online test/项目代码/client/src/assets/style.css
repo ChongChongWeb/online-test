@@ -1,0 +1,177 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+}
+
+.ivu-card{
+	margin-bottom: 15px;
+}
+
+
+body {
+	background-color: #EEEEEE;
+}
+
+.fater-header {
+	margin-left: 200px;
+	cursor: pointer;
+	background-color: #fff;
+}
+.fater-header-nav{
+	float: left;
+}
+.fater-header-user {
+	float: right;
+	background-color: #fff;
+    margin-right: -35px;
+}
+.fater-header-logo {
+	height: 64px;
+	width: 200px;
+	text-align: center;
+	line-height: 64px;
+	font-size: 20px;
+	font-weight: bold;
+	color: #2d8cf0;
+	background-color: #FFFFFF;
+	border-right: 1px solid #EEEEEE;
+}
+
+.fater-layout-left {
+	position: fixed;
+	top: 0px;
+	left: 0;
+	bottom: 0;
+	background-color: #FFFFFF;
+}
+
+.fater-layout-body {
+	position: absolute;
+	left: 200px;
+	right: 0;
+	top: 64px;
+	bottom: 0;
+	background-color: #F2F2F2;
+	padding: 15px;
+}
+
+.fater-calendar-panel{
+	background: #fff;
+	padding: 10px;
+}
+
+.fater-sysinfo-panle table{
+	width: 100%;
+	border-left: 1px solid #eee;
+	border-top: 1px solid #eee;
+}
+.fater-sysinfo-panle table td{
+	height: 40px;
+	padding-left: 10px;
+	border-right: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+}
+
+.fater-welcome-panle{
+	height: 580px;
+	background-image: url(../assets/3.jpg);
+	background-size: cover;
+	border: 10px solid #fff;
+	border-radius: 5px;
+	line-height: 580px;
+	text-align: center;
+	color: #fff;
+	font-size: 100px;
+	font-weight: bold;
+}
+
+.fater-answer-panle{
+	width: 1200px;
+	height: 803px;
+	margin: 50px auto auto auto;
+	border: 3px solid #ff9900;
+	border-radius: 9px;
+	background-color: #fff;
+}
+.fater-answer-left{
+	width: 240px;
+	height: 800px;
+	border-right: 3px solid #ff9900;
+	float: left;
+	position: relative;
+}
+.fater-answer-time{
+	height: 60px;
+	line-height: 60px;
+	font-size: 25px;
+	padding: 0 10px;
+	font-weight: bold;
+	color: #ed4014;
+	border-bottom: 3px solid #ff9900;
+}
+.fater-answer-select-list{
+	padding: 0 10px;
+}
+.fater-answer-select-item .ivu-col{
+	margin-bottom: 7.5px;
+}
+.fater-answer-flag{
+	height: 90px;
+	padding-left: 10px;
+	line-height: 90px;
+	border-top: 3px solid #ff9900;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	font-size: 12px;
+	color: #808695;
+}
+.fater-answer-right{
+	width: 954px;
+	height: 800px;
+	float: right;
+	position: relative;
+}
+.fater-answer-info{
+	height: 60px;
+	line-height: 60px;
+	border-bottom: 3px solid #ff9900;
+}
+.fater-answer-info-item{
+	display: inline;
+	margin-right: 30px;
+}
+.fater-answer-info .fater-answer-info-item:first-child{
+	margin-left: 150px;
+}
+.fater-answer-body{
+	padding: 20px;
+}
+.fater-answer-practise{
+	height: 40px;
+}
+.fater-answer-foot{
+	height: 90px;
+	border-top: 3px solid #ff9900;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+.fater-answer-foot-desc{
+	width: 680px;
+	line-height: 25px;
+	margin-top: 20px;
+	margin-left: 20px;
+	font-size: 12px;
+	color: #808695;
+	float: left;
+
+}
+.fater-answer-foot-subbtn{
+	float: right;
+	margin-top: 30px;
+	margin-right: 20px;
+}
